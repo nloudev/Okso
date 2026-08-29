@@ -1,3 +1,38 @@
 .App {
   text-align: center;
 }
+
+/* Tailwind isn't wired into the build yet, so reset list styling directly. */
+.home-container ol,
+.home-container ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.steps-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.steps-list li + li {
+  margin-top: 4rem;
+}
+
+/* Side by side once there's room; stays stacked on narrow/mobile screens. */
+@media (min-width: 640px) {
+  .steps-list {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 1.5rem;
+  }
+
+  .steps-list li {
+    flex: 1;
+  }
+
+  .steps-list li + li {
+    margin-top: 0;
+  }
+}
+
