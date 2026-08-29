@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Home: React.FC = () => {
     return (
@@ -7,8 +8,7 @@ const Home: React.FC = () => {
             <p>Your hospital discharge summary, broken into blocks you can actually follow - in your language, at your reading level, on your phone.</p>
             <nav>
                 <ul>
-                    <li><a href="/summary">View Discharge Summary</a></li>
-                    <li><a href="/about">About Us</a></li>
+                    <li><Link to="/summary">View Discharge Summary</Link></li>
                 </ul>
             </nav>
         </div>

@@ -1,15 +1,15 @@
 // This file defines TypeScript types and interfaces used throughout the application.
 
-export interface DischargeSummaryBlock {
+export interface SummaryBlock {
     id: string;
-    type: 'medication' | 'schedule' | 'redFlag' | 'instruction';
+    type: 'medication' | 'schedule' | 'redFlag' | 'appointment' | 'restriction' | 'contact' | 'instruction';
     content: string;
 }
 
 export interface DischargeSummary {
     patientName: string;
     date: string;
-    blocks: DischargeSummaryBlock[];
+    blocks: SummaryBlock[];
 }
 
 export interface LanguageOption {

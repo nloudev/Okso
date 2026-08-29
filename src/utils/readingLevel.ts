@@ -1,6 +1,6 @@
 // This utility function assesses the reading level of the discharge summary text to determine the appropriate presentation format.
 
-export const assessReadingLevel = (text: string): string => {
+export const calculateReadingLevel = (text: string): string => {
     // Simple logic to determine reading level based on average word length and sentence length
     const words = text.split(' ').length;
     const sentences = text.split('.').length - 1;
