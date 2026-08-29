@@ -1,0 +1,41 @@
+{
+  "name": "okso",
+  "version": "1.0.0",
+  "description": "Your hospital discharge summary, broken into blocks you can actually follow - in your language, at your reading level, on your phone.",
+  "main": "src/index.tsx",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "keywords": [
+    "hospital",
+    "discharge",
+    "summary",
+    "accessibility",
+    "react"
+  ],
+  "author": "John Louis Policarpio",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.2",
+    "tailwindcss": "^2.0.2"
+  },
+  "homepage": "http://yourhomepage.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/okso.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/okso/issues"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  }
+}
