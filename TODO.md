@@ -3,8 +3,8 @@
 
 # 1. Create a realistic synthetic discharge summary for testing.
 # 2. Implement the parsing logic in useSummaryParser.ts to convert text/image input into JSON blocks.
-3. Develop the DischargeSummary component to render blocks based on parsed data.
-4. Create the Block component to handle different block types and their functionalities.
+# 3. Develop the DischargeSummary component to render blocks based on parsed data.
+# 4. Create the Block component to handle different block types and their functionalities.
 5. Implement the LanguageSelector component to allow language selection and trigger translations.
 6. Set up the Home page with introductory content and navigation.
 7. Develop the SummaryView page to display the parsed discharge summary and allow interactions.

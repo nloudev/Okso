@@ -1,10 +1,20 @@
 import React from 'react';
 import DischargeSummary from '../components/DischargeSummary/DischargeSummary';
 import LanguageSelector from '../components/LanguageSelector/LanguageSelector';
-import { SummaryBlock } from '../types';
+import { Block } from '../hooks/useSummaryParser';
 
-const sampleBlocks: SummaryBlock[] = [
-    { id: '1', type: 'medication', content: 'Take paracetamol 500mg every 6 hours as needed.' },
+const sampleBlocks: Block[] = [
+    {
+        id: '1',
+        type: 'medication',
+        priority: 'important',
+        title: 'Paracetamol',
+        content: 'Take paracetamol 500mg every 6 hours as needed.',
+        plain_summary: 'Take this for pain relief.',
+        fields: { dose: '500 mg', frequency: 'every 6 hours' },
+        missing: [],
+        source: { section: 'Medications', text: 'Take paracetamol 500mg every 6 hours as needed.' },
+    },
 ];
 
 const SummaryView: React.FC = () => {
