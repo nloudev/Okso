@@ -1,29 +1,29 @@
 import React from 'react';
 import Block from '../Block/Block';
-import { SummaryBlock } from '../../types';
+import { Block as ParsedBlock, BlockType } from '../../hooks/useSummaryParser';
 
 interface DischargeSummaryProps {
-    summaryBlocks: SummaryBlock[];
+    summaryBlocks: ParsedBlock[];
 }
 
-const sectionOrder: SummaryBlock['type'][] = [
+const sectionOrder: BlockType[] = [
     'redFlag',
+    'medicationStopped',
     'medication',
-    'schedule',
+    'medicationSchedule',
     'appointment',
-    'restriction',
-    'contact',
-    'instruction',
+    'task',
+    'info',
 ];
 
-const sectionTitles: Record<SummaryBlock['type'], string> = {
+const sectionTitles: Record<BlockType, string> = {
     redFlag: '⚠️ Red Flags — When to Get Help',
+    medicationStopped: '🛑 Stopped Medications',
     medication: '💊 Medications',
-    schedule: '🗓️ Your Day',
+    medicationSchedule: '🗓️ Medication Schedule',
     appointment: '📅 Appointments',
-    restriction: '🚫 Restrictions & Care',
-    contact: '📞 Contacts',
-    instruction: 'ℹ️ Instructions',
+    task: '✅ Tasks',
+    info: 'ℹ️ Info',
 };
 
 const DischargeSummary: React.FC<DischargeSummaryProps> = ({ summaryBlocks }) => {
@@ -35,7 +35,7 @@ const DischargeSummary: React.FC<DischargeSummaryProps> = ({ summaryBlocks }) =>
         );
     }
 
-    const grouped = summaryBlocks.reduce<Record<string, SummaryBlock[]>>((acc, block) => {
+    const grouped = summaryBlocks.reduce<Record<string, ParsedBlock[]>>((acc, block) => {
         (acc[block.type] ??= []).push(block);
         return acc;
     }, {});
