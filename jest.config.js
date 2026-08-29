@@ -1,9 +1,10 @@
 module.exports = {
-  testEnvironment: "node",
+  testEnvironment: "jsdom",
   collectCoverage: true,
   coverageDirectory: "coverage",
-  testMatch: ["**/src/**/*.test.ts"],
+  testMatch: ["**/src/**/*.test.{ts,tsx}"],
   transform: {
-    "^.+\\.ts$": "ts-jest"
-  }
+    "^.+\\.tsx?$": "ts-jest"
+  },
+  moduleFileExtensions: ["ts", "tsx", "js", "jsx", "json", "node"]
 };
