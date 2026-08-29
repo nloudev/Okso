@@ -38,12 +38,13 @@ describe('Block', () => {
     const block = baseBlock({
       type: 'redFlag',
       priority: 'critical',
-      title: 'Chest pain',
+      title: 'Chest pain warning',
       fields: { action: 'Call 000', items: ['Chest pain', 'Difficulty breathing'] },
     });
 
     const { container } = render(<Block block={block} />);
 
+    expect(screen.getByText('Chest pain warning')).toBeInTheDocument();
     expect(screen.getByText('Call 000')).toBeInTheDocument();
     expect(screen.getByText('Chest pain')).toBeInTheDocument();
     expect(screen.getByText('Difficulty breathing')).toBeInTheDocument();
