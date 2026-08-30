@@ -1,0 +1,109 @@
+SAMPLE / TRAINING DOCUMENT — NOT A REAL PATIENT RECORD. All names, identifiers, dates and clinical details below are fictional and for illustration only.
+
+NSW Health
+Discharge Summary
+Riverside District Hospital · Sample Local Health District
+12 Wattle Street, Riverside NSW 2999 · Ph (02) 5555 0000
+MRN: 4567890
+Document status: Final
+Created: 27/08/2026 15:42
+Ward/Unit: Ward 4B — General Medicine
+
+PATIENT DETAILS
+Family name: WILSON
+Given name(s): Margaret Anne
+Date of birth: 14/03/1953 (72 years)
+Sex: Female
+MRN: 4567890
+Medicare no.: 1234 56789 0-1
+Address: 27 Banksia Avenue, Riverside NSW 2999
+Phone: (02) 5555 1234 / 0400 000 000
+Next of kin: David Wilson (son) — 0400 111 222
+Interpreter: Not required
+
+PRESENTATION DETAILS
+Admission date: 20/08/2026
+Discharge date: 27/08/2026
+Length of stay: 7 days
+Admission source: Emergency Department
+Admitting unit: General Medicine
+Specialty: General Medicine
+Attending consultant: Dr S. Patel
+Discharge destination: Usual place of residence (home)
+
+PRESENTING PROBLEM & DIAGNOSES
+Reason for presentation: 4-day history of productive cough, fevers, increasing breathlessness and reduced exercise tolerance.
+Principal diagnosis: Community-acquired pneumonia — right lower lobe
+Additional diagnoses / complications:
+- Acute exacerbation of chronic obstructive pulmonary disease (COPD)
+- Acute kidney injury (pre-renal, resolved with rehydration)
+- Hospital-associated hyperglycaemia in known type 2 diabetes
+Relevant past medical history:
+- COPD (moderate) — ex-smoker, 40 pack-year history, ceased 2015
+- Type 2 diabetes mellitus (2011)
+- Hypertension
+- Osteoarthritis — bilateral knees
+
+PROCEDURES / INVESTIGATIONS PERFORMED
+- Chest X-ray (20/08/2026) — right lower lobe consolidation
+- Peripheral IV cannulation for antibiotics and fluids
+- No invasive procedures performed
+
+CLINICAL SUMMARY
+Mrs Wilson presented to the Emergency Department with a 4-day history of productive cough with green sputum, subjective fevers and worsening dyspnoea on a background of COPD. On arrival she was febrile (38.6 °C), tachypnoeic (RR 26) and hypoxic with SpO2 88% on room air, improving to 94% on 2 L via nasal prongs. Examination revealed right basal crackles and reduced air entry. CURB-65 score was 2.
+Chest X-ray confirmed right lower lobe consolidation. She was admitted under General Medicine and treated for community-acquired pneumonia with IV benzylpenicillin and oral doxycycline, alongside standard COPD exacerbation management with regular salbutamol/ipratropium nebulisers and a 5-day course of oral prednisolone. A mild pre-renal acute kidney injury on admission (creatinine 132 umol/L) resolved with IV fluids.
+She improved steadily, was switched to oral amoxicillin on day 4 and weaned off supplemental oxygen by day 5. Blood glucose levels were elevated during the admission and managed with a short-term basal insulin adjustment; metformin was withheld while renal function was impaired and recommenced prior to discharge. At discharge she was afebrile, saturating 95% on room air and mobilising independently. She was reviewed by physiotherapy and is safe for discharge home with GP follow-up.
+
+ALLERGIES & ADVERSE REACTIONS
+Penicillin — NO known allergy. Sulfur drugs: rash (documented, non-severe).
+Recorded: 1 known adverse reaction. Substance: Sulfamethoxazole. Reaction: maculopapular rash.
+
+MEDICINES ON DISCHARGE
+Medicine | Dose & route | Frequency | Status
+Amoxicillin | 500 mg oral | TDS — complete 5-day course (until 31/08/2026) | NEW
+Prednisolone | 25 mg oral | Mane — 2 further days then STOP (until 29/08/2026) | NEW
+Salbutamol MDI | 100 mcg, 2 puffs, inhaled | PRN, up to QID | UNCHANGED
+Tiotropium (Spiriva) | 18 mcg, 1 cap, inhaled | Daily | UNCHANGED
+Metformin XR | 1000 mg oral | Daily with evening meal | CHANGED (reduced from BD)
+Perindopril | 5 mg oral | Daily | UNCHANGED
+Atorvastatin | 40 mg oral | Nocte | UNCHANGED
+Paracetamol | 1 g oral | QID PRN | UNCHANGED
+
+Ceased / temporarily suspended:
+- CEASED Ibuprofen 400 mg — ceased due to acute kidney injury; avoid NSAIDs.
+
+RECOMMENDATIONS & ONGOING MANAGEMENT
+1. Complete the 5-day course of oral amoxicillin (finishes 31/08/2026) and the remaining 2 days of prednisolone.
+2. Recheck renal function (U&E) and blood glucose at GP within 1 week; adjust metformin dose if renal function has normalised.
+3. Repeat chest X-ray in 6 weeks to confirm radiological resolution and exclude an underlying lesion.
+4. Avoid NSAIDs given the recent acute kidney injury.
+5. Reinforce inhaler technique and COPD action plan; recommend influenza and pneumococcal vaccination if not up to date.
+
+FOLLOW-UP APPOINTMENTS
+Appointment | Date / time | Provider | Booking status
+GP review | Within 3-5 days | Usual GP — Riverside Medical Centre | Patient to book
+Respiratory outpatient clinic | 08/10/2026, 10:30 | Dr Patel, Riverside District Hospital | Booked — letter sent
+Repeat chest X-ray | ~10/10/2026 | Community radiology (referral given) | Patient to book
+
+SELECTED INVESTIGATION RESULTS
+Test | On admission (20/08) | At discharge (27/08) | Reference
+White cell count | 15.8 | 8.9 | 4.0-11.0 x10^9/L
+C-reactive protein | 184 | 21 | <5 mg/L
+Creatinine | 132 | 84 | 45-90 umol/L
+HbA1c | 8.4% | — | <7.0% (target)
+Chest X-ray | RLL consolidation; no effusion (20/08/2026) | — | —
+
+INFORMATION PROVIDED TO PATIENT
+- Discharge summary and medication list provided and explained.
+- COPD action plan reviewed; inhaler technique demonstrated.
+- Advised to return to ED if increasing breathlessness, fever, chest pain or confusion.
+- Community radiology referral and outpatient clinic letter given.
+
+Prepared by: Dr J. Nguyen, Resident Medical Officer
+Contact: Ward 4B — (02) 5555 0042
+Supervising consultant: Dr S. Patel
+Date completed: 27/08/2026
+Copy to: Usual GP — Riverside Medical Centre
+Patient copy: Provided on discharge
+
+This is a fictional sample created for illustration and training purposes only. It follows the general structure of a NSW Health discharge summary (as described in NSW Health / SESLHD discharge summary completion standards) but is not an official NSW Health form and does not represent any real patient, clinician or facility. Do not use for actual clinical documentation.
